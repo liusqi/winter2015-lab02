@@ -290,6 +290,7 @@ switch (ENVIRONMENT)
  * And away we go...
  */
 require_once BASEPATH.'core/CodeIgniter.php';
+$autoload['helper'] = array('common', 'url');
 
 /* End of file index.php */
 /* Location: ./index.php */

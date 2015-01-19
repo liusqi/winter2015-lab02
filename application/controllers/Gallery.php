@@ -56,6 +56,8 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('gallery');
+//		$this->load->view('gallery');
+            $this->data['pagebody'] = 'gallery';
+            $this->render();
 	}
 }
